@@ -1,0 +1,52 @@
+body {
+    background-color: #BFEA7C;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    display: flex;
+}
+
+#search {
+    flex: 1;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+.conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #416D19;
+    text-decoration: none;
+    font-size: 42px;
+    word-break: break-all;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #416D19;
+}
